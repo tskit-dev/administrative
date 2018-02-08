@@ -1,8 +1,12 @@
-all: test_notebook.html
+all: pdf html
+
+pdf: test_notebook.pdf
+html: test_notebook.html
 
 clean:
 	rm -f *.output.ipynb
 	rm -f *.html
+	rm -f *.pdf
 
 # Makefiles don't a allow a target to depend on 
 # itself, so we execute foo.ipynb to
@@ -17,3 +21,9 @@ clean:
 # end up with foo.output.html
 %.html: %.output.ipynb
 	jupyter nbconvert --to html $< --stdout > $@
+
+%.pdf: %.output.ipynb
+	jupyter nbconvert --to pdf $< 
+
+.PHONY: pdf html
+.PRECIOUS: %.output.ipynb
