@@ -24,6 +24,7 @@ clean:
 
 %.pdf: %.output.ipynb
 	jupyter nbconvert --to pdf $< 
+	mv -f $*.output.pdf $@
 
 .PHONY: pdf html
 .PRECIOUS: %.output.ipynb
