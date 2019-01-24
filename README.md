@@ -12,7 +12,9 @@ quickly.
 
 The preferred way to contribute is to create your own fork of the appropriate
 repository (for instance, `tskit-dev/tskit`), make changes, and submit your changes as a
-pull request (PR). A simple way to do this is to create a topic branch based on upstream,
+pull request (PR). A simple way to do this is to create a topic branch based on the
+original tskit-dev repository (usually labelled as "upstream": you may need to
+[set this up](https://help.github.com/articles/configuring-a-remote-for-a-fork/)),
 via the following git commands from within your forked repository:
 
 ```
