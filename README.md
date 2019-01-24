@@ -19,7 +19,7 @@ via the following git commands from within your forked repository:
 
 ```
 $ git fetch upstream
-$ git checkout upstream/master
+$ git checkout upstream/master # note this switches to a 'detached HEAD' state
 $ git checkout -b my-topic-branch
 # Do work and add commits.
 $ git push origin my-topic-branch
