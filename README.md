@@ -11,7 +11,7 @@ Improvements to documentation are particularly welcome, and are likely to be acc
 quickly. 
 
 The preferred way to contribute is to create your own fork of the appropriate
-repository (for instance, `tskit-dev/tskit`), make changes, and submit your changes as a
+repository (for instance `tskit-dev/tskit`), make changes, and submit your changes as a
 pull request (PR). A simple way to do this is to create a topic branch based on the
 original tskit-dev repository (usually labelled as "upstream": you may need to
 [set this up](https://help.github.com/articles/configuring-a-remote-for-a-fork/)),
