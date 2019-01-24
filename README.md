@@ -31,4 +31,7 @@ with lines limited to a maximum of 89 characters, and no trailing whitespace.
 We prefer contributions to documentation to follow this style where possible.
 
 All submissions are accepted on the basis that they have been provided to the tskit
-project under the [MIT License](https://opensource.org/licenses/MIT).
+project under the OSS license of the relevant repository (e.g.
+[MIT](https://opensource.org/licenses/MIT) or
+[GPL](https://opensource.org/licenses/GPL-3.0),
+as specified in the LICENSE file in the root of the repository).
