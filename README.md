@@ -35,6 +35,3 @@ project under the OSS license of the relevant repository (e.g.
 [MIT](https://opensource.org/licenses/MIT) or
 [GPL](https://opensource.org/licenses/GPL-3.0),
 as specified in the LICENSE file in the root of the repository).
-
----
-<div style="text-align: right">Logo courtesy of Tom Shirley</div>
