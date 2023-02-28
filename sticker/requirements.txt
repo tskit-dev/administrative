@@ -1,0 +1,2 @@
+# Note that imagemagick and inkscape are also required for the makefile to run
+hexsticker
